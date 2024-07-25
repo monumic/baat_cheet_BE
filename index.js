@@ -112,8 +112,8 @@ app.post('/register', async (req, res) => {
     }
 });
 
-const port=process.env.PORT||4040;
-const server = app.listen(4040);
+const port=process.env.PORT||3555;
+const server = app.listen(port);
 
 const wss = new ws.WebSocketServer({ server });
 wss.on('connection', (connection, req) => {
