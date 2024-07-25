@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
     credentials: true,
-    origin: "https://baatcheet-five.vercel.app",
+    origin: "https://baatcheet-pk.vercel.app",
 }));
 
 async function getUserDataFromRequest(req) {
